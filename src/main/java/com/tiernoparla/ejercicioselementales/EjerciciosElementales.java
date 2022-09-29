@@ -1,9 +1,40 @@
 
 package com.tiernoparla.ejercicioselementales;
 
+import java.util.Scanner ;
+
 public class EjerciciosElementales {
     public static void main(String[] args){
        
+        Scanner sc = new Scanner (System.in);
+        
+        
+        //Algoritmo division
+        int n ;
+        System.out.println("Dame valor n");
+        n = sc.nextInt();
+        int d ;
+        System.out.println("Dame valor d");
+        d = sc.nextInt();
+        System.out.println("Resultado");
+        int r = n;
+        int q = 0;
+        while ( r >= d ) {
+            System.out.println(r);
+            r = r - d;
+            System.out.println(r);
+            q++;
+        }//while
+        
+        System.out.println(n == d*q+r);
+        //Comprobacion de la division.
+        
+        
+        
+        
+        
+        
+        /*
         //printear nums pares del 1 al 10 3 forma 
         int n = 1;
         while( n < 11 ) {
@@ -12,6 +43,10 @@ public class EjerciciosElementales {
             }//if
             n++;
         }//while
+        */
+        
+        
+        
         
         /*
         //listar los numeros entre el 0 y antes del 11.
@@ -23,6 +58,9 @@ public class EjerciciosElementales {
         */
         
         
+        
+        
+        
         /*
         //printear nums pares del 1 al 10 2 forma
         for (int i = 1; i <= 10; i++){
@@ -31,6 +69,11 @@ public class EjerciciosElementales {
              }//if
         }//for 2 forma
         */
+        
+        
+        
+        
+        
         
         
         /*
