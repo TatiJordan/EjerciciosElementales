@@ -3,7 +3,7 @@ package com.tiernoparla.ejercicioselementales;
 
 import java.util.Scanner ;
 import java.lang.Math;
-
+/*
 public class EjerciciosElementales {
     public static void main(String[] args){
         
@@ -19,7 +19,7 @@ public class EjerciciosElementales {
         }//for||
         System.out.println("La palabra " + str + " contiene " + contador + 
         " vocales ");
-        
+*/       
         
         
         
