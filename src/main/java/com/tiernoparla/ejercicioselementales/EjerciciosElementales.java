@@ -3,10 +3,95 @@ package com.tiernoparla.ejercicioselementales;
 
 import java.util.Scanner ;
 import java.lang.Math;
-/*
+import java.util.Random;
+import java.util.regex.*; 
 public class EjerciciosElementales {
     public static void main(String[] args){
+     
+
+    //Printear una matriz de numeros.
+     /*
+    
+     int matriz[][] = {{1,2,3},
+                       {4,5,6},
+                       {7,8,9}};
+     
+     for (int i = 0; i <matriz.length; i++){
+         for (int j=0; j<matriz[i].length;j++){
+            System.out.print(matriz[i][j]);
+             }//for2
+         System.out.println("");
+           }//for1
+     */
+     /*   
+     //matriz
+     String[][] str_matrix ={
+         {"a", "b", "c", "d"},
+         {"e", "f", "g", "h"},    
+         {"i", "j", "k", "l"}
+    };//array
+        System.out.println(str_matrix[1][2]);
+     */   
+
+
+    //contraseña valida
+    /*
+    String pass = "asdnsdadas2da";
+    boolean pass_ok = true;
+    
+    //longitud 10
+    if (pass.length()< 10){
+        pass_ok = false;
+    }
+    
+    //solo letras y nums
+
+    if(! pass.matches ("^[a-zA-Z0-9]*$")){
+        pass_ok = false;
+    }
+    //al menos 2 nums
+        //for char in pass
+            //if char regex == 0-9
+              //count++
+    
+    int counter = 0;
+    for (char c: pass.toCharArray()){
+        if(Character.isDigit(c)){
+            counter++;
+        }//if
+    }//for
+    //if counter < 2 --> pass_ok = false
+    if (counter <2){
+        pass_ok = false;
+    }
+    
+    if(pass_ok){
+        System.out.println("el password esta ok");
+    } else {
+        System.out.println("el password esta mal");
+    }
         
+    */    
+        
+    /*
+     int N = 1234;
+     int result = 0;
+      while (N > 0){
+          result += N % 10;
+          N = N / 10;
+      }//while
+        System.out.println("La suma es: " + result);
+    */    
+    /*  //contar las palabras de una frase.
+        String str = "   Salimos   dasdas   dasdasd   das   ";
+        str = str.trim();
+        String[] palabras = str.split("\\s+");
+        System.out.println(palabras.length);
+    */ 
+    
+    
+    
+    /*    //hacer que cuente las vocales de la palabra.
         String str = "Tatiana";
         System.out.println("El numero de valores que hay es: " + str.length());
         int contador = 0;
@@ -19,7 +104,7 @@ public class EjerciciosElementales {
         }//for||
         System.out.println("La palabra " + str + " contiene " + contador + 
         " vocales ");
-*/       
+    */
         
         
         
